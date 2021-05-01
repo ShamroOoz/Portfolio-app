@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
         </div>
         <div className="flex flex-col col-span-12 overflow-hidden bg-white rounded-2xl dark:bg-black-500 dark:text-white lg:col-span-9 shadow-custom-light dark:shadow-custom-dark">
           {/* //!navbar */}
-          <NavBar />
+          <Navbar />
           {/* //!about */}
           <Component {...pageProps} />
         </div>
