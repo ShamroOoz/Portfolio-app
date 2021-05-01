@@ -17,10 +17,9 @@ export default function Sidebar() {
         src="https://sumitdey.netlify.app/static/media/max.9d3a6d3e.jpg"
         alt="avatar"
         className="mx-auto border rounded-full"
-        layout="intrinsic"
+        layout="responsive"
         height="128px"
         width="128"
-        quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green ">Sumit</span> Dey
