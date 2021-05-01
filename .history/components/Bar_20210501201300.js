@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 export default function Bar({ value: { Icon, level, name } }) {
-  const bar_width = `${level}%`;
   const variants = {
     initial: {
       width: 0,
@@ -17,6 +16,7 @@ export default function Bar({ value: { Icon, level, name } }) {
     },
   };
 
+  const bar_width = `${level}%`;
   return (
     <div className="my-2 text-white bg-gray-300 rounded-full dark:bg-dark-300 dark:bg-black-300">
       <motion.div
@@ -24,9 +24,6 @@ export default function Bar({ value: { Icon, level, name } }) {
         style={{
           width: bar_width,
         }}
-        variants={variants}
-        initial="initial"
-        animate="animate"
       >
         <Icon className="mr-3" /> {name}
       </motion.div>

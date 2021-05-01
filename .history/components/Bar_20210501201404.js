@@ -24,9 +24,6 @@ export default function Bar({ value: { Icon, level, name } }) {
         style={{
           width: bar_width,
         }}
-        variants={variants}
-        initial="initial"
-        animate="animate"
       >
         <Icon className="mr-3" /> {name}
       </motion.div>

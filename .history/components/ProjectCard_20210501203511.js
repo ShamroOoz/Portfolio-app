@@ -1,8 +1,6 @@
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import Image from "next/image";
-import { fadeInUp, stagger } from "../utils/animations";
-import { motion } from "framer-motion";
 
 export default function ProjectCard({
   showDetail,
@@ -15,7 +13,6 @@ export default function ProjectCard({
     description,
     github_url,
     key_techs,
-    id,
   },
 }) {
   return (
