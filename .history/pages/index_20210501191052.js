@@ -20,14 +20,7 @@ export default function About() {
 
         <div className="grid gap-6 my-3 md:grid-cols-2">
           {/* children's initial and animate property should be same as the parent during a stagger effect  */}
-          {services.map((service) => (
-            <div
-              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
-              key={service.id}
-            >
-              <ServiceCard service={service} />
-            </div>
-          ))}
+          {services.map((service) => console.log(service))}
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 
-export default function About() {
+export default function Home() {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
@@ -23,7 +23,7 @@ export default function About() {
           {services.map((service) => (
             <div
               className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
-              key={service.id}
+              key={service.title}
             >
               <ServiceCard service={service} />
             </div>
