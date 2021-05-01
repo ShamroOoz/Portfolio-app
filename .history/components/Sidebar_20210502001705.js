@@ -26,7 +26,7 @@ export default function Sidebar() {
         <span className="text-green ">Shamroz</span> warraich
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-black-200">
-        Full-Stack Developer
+        Web Developer
       </p>
       {/* Resume */}
       <a

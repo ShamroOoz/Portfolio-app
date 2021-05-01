@@ -14,8 +14,9 @@ export default function About() {
     >
       <h6 className="my-3 text-base font-medium">
         Hello, my name's shamroz. I'm a Full-Stack Web Developer passionate
-        about working with MERN STACK & JAMSTACK. I am currently pursuing Master
-        in Software Product Engineering from Jönköping School of Engineering.
+        about working with MERN STACK & JAMSTACK.. I am currently pursuing
+        Master in Software Product Engineering from Jönköping School of
+        Engineering.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

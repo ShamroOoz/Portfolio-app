@@ -10,20 +10,21 @@ export const services = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I strive to create interesting and attractive front-end assets following a component-based approach.  ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
   },
   {
     id: 2,
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "Handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Express </b> & other popular frameworks",
   },
   {
     id: 3,
     Icon: AiOutlineApi,
     title: "API Development",
-    about: "I can develop robust  REST API using   <b>Node API</b> ",
+    about:
+      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
   },
   {
     id: 4,

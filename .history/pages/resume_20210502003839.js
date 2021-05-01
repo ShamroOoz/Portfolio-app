@@ -39,15 +39,9 @@ export default function resume() {
           <div className="">
             <h5 className="my-2 text-xl font-bold">Front End Developer </h5>
             <p className="font-semibold">
-              at x Technos (April 2017 - July 2018)
+              at x Technos (April 2017 - July 2018.)
             </p>
-            <li className="my-3">
-              Frontend architechture using Redux , React , Redux in the
-              Node-powered workflow
-            </li>
-            <li>
-              Cooperate with the architect and backend devs of the application
-            </li>
+            <p className="my-3"></p>
             <a
               href="/assets/xTechnos.pdf"
               download="xTechnos.pdf"
@@ -72,7 +66,7 @@ export default function resume() {
         </div>
 
         <div>
-          <h5 className="my-3 text-2xl font-bold">Database & Stacks</h5>
+          <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
           <div className="my-2">
             {tools.map((tool, i) => (
               <Bar value={tool} key={i} />

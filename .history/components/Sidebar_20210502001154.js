@@ -26,12 +26,12 @@ export default function Sidebar() {
         <span className="text-green ">Shamroz</span> warraich
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-black-200">
-        Full-Stack Developer
+        Web Developer
       </p>
       {/* Resume */}
       <a
-        href="/assets/Resume.pdf"
-        download="Resume.pdf"
+        href="/assets/Sumit Dey Resume.pdf"
+        download="Sumit Dey Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-black-200"
       >
         <GiTie className="w-6 h-6" />

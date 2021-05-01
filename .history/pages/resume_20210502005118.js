@@ -41,13 +41,7 @@ export default function resume() {
             <p className="font-semibold">
               at x Technos (April 2017 - July 2018)
             </p>
-            <li className="my-3">
-              Frontend architechture using Redux , React , Redux in the
-              Node-powered workflow
-            </li>
-            <li>
-              Cooperate with the architect and backend devs of the application
-            </li>
+            <p className="my-3"></p>
             <a
               href="/assets/xTechnos.pdf"
               download="xTechnos.pdf"

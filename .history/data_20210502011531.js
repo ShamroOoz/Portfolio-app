@@ -17,13 +17,14 @@ export const services = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "Handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Express </b> & other popular frameworks",
   },
   {
     id: 3,
     Icon: AiOutlineApi,
     title: "API Development",
-    about: "I can develop robust  REST API using   <b>Node API</b> ",
+    about:
+      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
   },
   {
     id: 4,

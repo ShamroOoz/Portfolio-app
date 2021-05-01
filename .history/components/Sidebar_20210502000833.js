@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -26,12 +26,12 @@ export default function Sidebar() {
         <span className="text-green ">Shamroz</span> warraich
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-black-200">
-        Full-Stack Developer
+        Web Developer
       </p>
       {/* Resume */}
       <a
-        href="/assets/Resume.pdf"
-        download="Resume.pdf"
+        href="/assets/Sumit Dey Resume.pdf"
+        download="Sumit Dey Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-black-200"
       >
         <GiTie className="w-6 h-6" />
@@ -49,9 +49,6 @@ export default function Sidebar() {
         <a href="https://github.com/ShamroOoz" target="_blank">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.facebook.com/shamroz.warraich.5" target="_blank">
-          <AiFillFacebook className="w-8 h-8 cursor-pointer" />
-        </a>
       </div>
 
       {/* Contacts */}
@@ -61,7 +58,7 @@ export default function Sidebar() {
       >
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" />{" "}
-          <span>Jordhyttegatan 16 A, 414 73 Göteborg </span>
+          <span>Jordhyttegatan 18, 414 73 Göteborg </span>
         </div>
         <p className="my-2 "> shamrozwarraich@gamil.com </p>
         <p className="my-2"> +46761581756 </p>

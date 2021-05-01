@@ -23,7 +23,7 @@ export const services = [
     id: 3,
     Icon: AiOutlineApi,
     title: "API Development",
-    about: "I can develop robust  REST API using   <b>Node API</b> ",
+    about: "I can develop robust  REST API using   & <b>Node API</b> ",
   },
   {
     id: 4,

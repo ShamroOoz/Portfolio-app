@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -26,12 +26,12 @@ export default function Sidebar() {
         <span className="text-green ">Shamroz</span> warraich
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-black-200">
-        Full-Stack Developer
+        Web Developer
       </p>
       {/* Resume */}
       <a
-        href="/assets/Resume.pdf"
-        download="Resume.pdf"
+        href="/assets/Sumit Dey Resume.pdf"
+        download="Sumit Dey Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-black-200"
       >
         <GiTie className="w-6 h-6" />
@@ -40,17 +40,11 @@ export default function Sidebar() {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a
-          href="https://www.linkedin.com/in/shamroz-warraich-899261128/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/shamroz-warraich-899261128/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/ShamroOoz" target="_blank">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />
-        </a>
-        <a href="https://www.facebook.com/shamroz.warraich.5" target="_blank">
-          <AiFillFacebook className="w-8 h-8 cursor-pointer" />
+        <a href="https://github.com/ShamroOoz">
+          <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
 
@@ -60,18 +54,17 @@ export default function Sidebar() {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" />{" "}
-          <span>Jordhyttegatan 16 A, 414 73 Göteborg </span>
+          <GoLocation className="mr-2" /> <span>Kolkata,India </span>
         </div>
-        <p className="my-2 "> shamrozwarraich@gamil.com </p>
-        <p className="my-2"> +46761581756 </p>
+        <p className="my-2 "> code.sumax@gmail.com </p>
+        <p className="my-2"> 8514961665 / 8640960375 </p>
       </div>
 
       {/* Email Button */}
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:shamrozwarraich@gmail.com")}
+        onClick={() => window.open("mailto:code.sumax@gmail.com")}
       >
         Email me
       </button>
