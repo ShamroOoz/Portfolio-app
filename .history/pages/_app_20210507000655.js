@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import NavBar from "@/components/Navbar";
+import NavBar from "@/components//Navbar";
 import Sidebar from "@/components//Sidebar";
 import { ThemeProvider } from "next-themes";
 import Layout from "@/components/Layout";
