@@ -112,6 +112,31 @@ export const tools = [
 export const projects = [
   {
     id: 1,
+    name: "My Mems",
+    description:
+      "This is for like social app where you can share your memories or recent activities with your love once",
+    image_path: "/images/mems.PNG",
+    deployed_url: "https://mymemsreactapp.netlify.app/singup",
+    github_url:
+      "https://github.com/ShamroOoz/Event-Management-Mern-Application",
+    category: ["react"],
+    key_techs: ["React Redux", "Formik", "Tailwind css"],
+  },
+  {
+    id: 2,
+    name: "Resort Booking",
+    image_path: "/images/resort.JPG",
+    deployed_url: "https://beach-resort-react-contenful.netlify.app/",
+    github_url:
+      "https://github.com/ShamroOoz/Resort-Application-react-contentful",
+    category: ["react"],
+    description:
+      "An web app for booking your favourite Resort according to your choice",
+    key_techs: ["Contentful CMS", "Context Api", "styled-components"],
+  },
+
+  {
+    id: 3,
     name: "Concerts Creator",
     image_path: "/images/Djevents.JPG",
     deployed_url: "https://dev-talks.herokuapp.com/",
@@ -121,19 +146,6 @@ export const projects = [
       "App for creating hottest part events and share with the people tp join the part... ",
     key_techs: ["React", "Context API", "Next js"],
   },
-  {
-    id: 2,
-    name: "Resort Booking",
-    image_path: "/images/resort.JPG",
-    deployed_url: "https://beach-resort-react-contenful.netlify.app/",
-    github_url:
-      "https://github.com/ShamroOoz/Resort-Application-react-contentful",
-    category: ["react", "mongo", "node"],
-    description:
-      "An web app for booking your favourite Resort according to your choice",
-    key_techs: ["Contentful CMS", "Context Api", "styled-components"],
-  },
-
   {
     id: 4,
     name: " Social Blogging App",
@@ -150,17 +162,5 @@ export const projects = [
       "React-hot-toast",
       "React-hook-form",
     ],
-  },
-  {
-    id: 6,
-    name: "My Mems",
-    description:
-      "This is for like social app where you can share your memories or recent activities with your love once",
-    image_path: "/images/mems.PNG",
-    deployed_url: "https://mymemsreactapp.netlify.app/singup",
-    github_url:
-      "https://github.com/ShamroOoz/Event-Management-Mern-Application",
-    category: ["react", "mongo", "node"],
-    key_techs: ["React Redux", "Formik", "Tailwind css"],
   },
 ];

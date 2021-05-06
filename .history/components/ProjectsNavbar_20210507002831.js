@@ -11,11 +11,11 @@ export const NavItem = ({ value, handlerFilterCategory, active }) => {
 export default function ProjectsNavbar(props) {
   return (
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
-      <NavItem value="all" {...props} />
-      <NavItem value="react" {...props} />
-      <NavItem value="next" {...props} />
-      <NavItem value="mongo" {...props} />
-      <NavItem value="node" {...props} />
+      <NavItem value="All" {...props} />
+      <NavItem value="React" {...props} />
+      <NavItem value="Mongo" {...props} />
+      <NavItem value="Node" {...props} />
+      <NavItem value="django" {...props} />
     </div>
   );
 }

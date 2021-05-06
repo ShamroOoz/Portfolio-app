@@ -112,14 +112,15 @@ export const tools = [
 export const projects = [
   {
     id: 1,
-    name: "Concerts Creator",
-    image_path: "/images/Djevents.JPG",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/ShamroOoz/Concerts-Creator-Frontend-Nextjs",
-    category: ["strapi", , "next"],
+    name: "My Mems",
     description:
-      "App for creating hottest part events and share with the people tp join the part... ",
-    key_techs: ["React", "Context API", "Next js"],
+      "This is for like social app where you can share your memories or recent activities with your love once",
+    image_path: "/images/mems.PNG",
+    deployed_url: "https://mymemsreactapp.netlify.app/singup",
+    github_url:
+      "https://github.com/ShamroOoz/Event-Management-Mern-Application",
+    category: ["react", "mongo", "node"],
+    key_techs: ["React Redux", "Formik", "Tailwind css"],
   },
   {
     id: 2,
@@ -134,6 +135,17 @@ export const projects = [
     key_techs: ["Contentful CMS", "Context Api", "styled-components"],
   },
 
+  {
+    id: 3,
+    name: "Concerts Creator",
+    image_path: "/images/Djevents.JPG",
+    deployed_url: "https://dev-talks.herokuapp.com/",
+    github_url: "https://github.com/ShamroOoz/Concerts-Creator-Frontend-Nextjs",
+    category: ["strapi", , "next"],
+    description:
+      "App for creating hottest part events and share with the people tp join the part... ",
+    key_techs: ["React", "Context API", "Next js"],
+  },
   {
     id: 4,
     name: " Social Blogging App",
@@ -150,17 +162,5 @@ export const projects = [
       "React-hot-toast",
       "React-hook-form",
     ],
-  },
-  {
-    id: 6,
-    name: "My Mems",
-    description:
-      "This is for like social app where you can share your memories or recent activities with your love once",
-    image_path: "/images/mems.PNG",
-    deployed_url: "https://mymemsreactapp.netlify.app/singup",
-    github_url:
-      "https://github.com/ShamroOoz/Event-Management-Mern-Application",
-    category: ["react", "mongo", "node"],
-    key_techs: ["React Redux", "Formik", "Tailwind css"],
   },
 ];

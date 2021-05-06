@@ -112,17 +112,6 @@ export const tools = [
 export const projects = [
   {
     id: 1,
-    name: "Concerts Creator",
-    image_path: "/images/Djevents.JPG",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/ShamroOoz/Concerts-Creator-Frontend-Nextjs",
-    category: ["strapi", , "next"],
-    description:
-      "App for creating hottest part events and share with the people tp join the part... ",
-    key_techs: ["React", "Context API", "Next js"],
-  },
-  {
-    id: 2,
     name: "Resort Booking",
     image_path: "/images/resort.JPG",
     deployed_url: "https://beach-resort-react-contenful.netlify.app/",
@@ -134,6 +123,17 @@ export const projects = [
     key_techs: ["Contentful CMS", "Context Api", "styled-components"],
   },
 
+  {
+    id: 2,
+    name: "Concerts Creator",
+    image_path: "/images/Djevents.JPG",
+    deployed_url: "https://dev-talks.herokuapp.com/",
+    github_url: "https://github.com/ShamroOoz/Concerts-Creator-Frontend-Nextjs",
+    category: ["strapi", , "next"],
+    description:
+      "App for creating hottest part events and share with the people tp join the part... ",
+    key_techs: ["React", "Context API", "Next js"],
+  },
   {
     id: 4,
     name: " Social Blogging App",
