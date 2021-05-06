@@ -139,7 +139,7 @@ export const projects = [
     name: " Social Blogging App",
     image_path: "/images/nxtblog.JPG",
     deployed_url: "https://next-firebase-blog-applicarion.vercel.app/",
-    github_url: "https://github.com/ShamroOoz/Next-Firebase-Blog-Application",
+    github_url: "https://next-firebase-blog-applicarion.vercel.app/",
     category: ["next"],
     description:
       "Social Blogging Platform inspired by sites like 🌈 DEV.to and Medium. Authors can create content under their custom username, then publish publicly with SEO-friendly rendering, while readers can heart or like posts in realtime ",
