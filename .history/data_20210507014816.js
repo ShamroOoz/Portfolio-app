@@ -118,7 +118,7 @@ export const projects = [
     github_url: "https://github.com/ShamroOoz/Concerts-Creator-Frontend-Nextjs",
     category: ["strapi", , "next"],
     description:
-      "App for creating and finding the hottest DJ events and share with the people to join you.",
+      "App for creating hottest party events and share with the people tp join the part... ",
     key_techs: ["React", "Context API", "Next js"],
   },
   {
