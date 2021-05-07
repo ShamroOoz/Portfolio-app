@@ -12,13 +12,11 @@ export default function About() {
       animate="visible"
       exit="exit"
     >
-      <h2 className="text-xl font-bold text-center">ARE WE A GOOD FIT?</h2>
       <h6 className="my-3 text-base font-medium">
         Hello, I'm shamroz Full-Stack Web Developer passionate about working
-        with <b>MERN STACK</b> & <b>JAM STACK</b>.• Open to evolving in
-        Firebase,serverless function , headless cms and other
-        technologies.Currently pursuing Master in Software Product Engineering
-        from Jönköping School of Engineering.
+        with MERN STACK & JAMSTACK.• Open to evolving in Firebase,serverless
+        function and other technologies. I am currently pursuing Master in
+        Software Product Engineering from Jönköping School of Engineering.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

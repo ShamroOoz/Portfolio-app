@@ -17,7 +17,7 @@ export const services = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "Handle database, server, api using <b>Express </b> &  <b>Serverless function </b> &  other popular headless cms(strapi,contentful)",
+      "Handle database, server, api using <b>Express </b> & other popular headless cms(strapi,contentful)",
   },
   {
     id: 3,
