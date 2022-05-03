@@ -34,14 +34,17 @@ export default function resume() {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">Full Stack Engineer </h5>
-            <p className="font-semibold">at Gigalabs (Nov 2020 - Feb 2022)</p>
-          </div>
-          <div>
             <h5 className="my-2 text-xl font-bold">Front End Developer </h5>
             <p className="font-semibold">
               at x Technos (April 2017 - July 2018)
             </p>
+            <li className="my-3">
+              Frontend architechture using Redux , React , Redux in the
+              Node-powered workflow
+            </li>
+            <li>
+              Cooperate with the architect and backend devs of the application
+            </li>
             <a
               href="/assets/xTechnos.pdf"
               download="xTechnos.pdf"
@@ -77,11 +80,3 @@ export default function resume() {
     </motion.div>
   );
 }
-
-// <li className="my-3">
-//             Frontend architechture using Redux , React , Redux in the
-//             Node-powered workflow
-//           </li>
-//           <li>
-//             Cooperate with the architect and backend devs of the application
-//           </li>

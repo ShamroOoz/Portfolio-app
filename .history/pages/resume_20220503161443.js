@@ -33,10 +33,10 @@ export default function resume() {
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
-          <div className="">
+          <li className="inline-block">
             <h5 className="my-2 text-xl font-bold">Full Stack Engineer </h5>
             <p className="font-semibold">at Gigalabs (Nov 2020 - Feb 2022)</p>
-          </div>
+          </li>
           <div>
             <h5 className="my-2 text-xl font-bold">Front End Developer </h5>
             <p className="font-semibold">
